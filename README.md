@@ -1,8 +1,44 @@
-🏆 Coding Tracker: High-Performance Analytics for Competitive Programming📌 Project OverviewCoding Tracker Pro is a full-stack real-time monitoring system designed to track student progress on CodingBat. Unlike simple scrapers, this platform provides deep behavioral insights, identifying not just how much a student codes, but when and how consistently they perform.Built specifically for the Being Zero Batch 1 at the Suryapet Campus, this tool gamifies the learning process to drive healthy competition among peers.✨ Outstanding FeaturesThis project implements several "Elite" features that go beyond basic data tracking:🔥 Velocity Engine (Trending): An automated detection system that identifies students with high activity in the last 24 hours, marked with a live "Flame" icon.🌙 Night Owl Analytics: Uses SQL time-extraction to identify students who are active between 12:00 AM and 5:00 AM.🎉 Milestone Celebrations: Integrated canvas-confetti triggers to celebrate students hitting major milestones (50+ problems solved).📈 Interactive Progress Graphs: Time-series Area Charts (via Recharts) showing the exact growth trajectory of every student.⚡ Real-Time Background Scraper: A robust FastAPI-based scheduler that syncs data every 10 minutes without slowing down the UI.🛠️ Technical StackLayerTechnologyFrontendReact.js, Tailwind CSS, Recharts, Lucide IconsBackendFastAPI (Python), APSchedulerDatabasePostgreSQL, SQLAlchemy ORMScrapingBeautifulSoup4, Requests🚀 Key Learning OutcomesDeveloping this project involved solving complex full-stack challenges:Concurrency: Managing background scraping tasks while serving API requests.State Management: Using React Hooks to handle real-time searching and filtering across 170+ records.Data Modeling: Designing a relational database to store both current totals and historical "Snapshots" for graphing.💻 How to Run Locally1. Backend SetupBashcd backend
+# 🏆 Coding Tracker 
+
+---
+
+## 📌 Project Overview
+**Coding Tracker ** is a full-stack real-time monitoring system designed to track student progress on CodingBat.  
+
+## ✨ Outstanding Features
+* **🔥 Velocity Engine**: Automated detection for students active in the last 24h.
+* **🎉 Milestone Celebrations**: Interactive confetti triggers for 50+ solved problems.
+* **📈 Progress Graphs**: Time-series Area Charts showing individual growth trajectory.
+* **⚡ Background Scraper**: Robust FastAPI-based scheduler syncing every 10 minutes.
+
+---
+
+## 🛠️ Tech Stack
+* **Frontend**: React.js, Tailwind CSS, Recharts, Lucide Icons
+* **Backend**: FastAPI (Python), APScheduler
+* **Database**: PostgreSQL, SQLAlchemy ORM
+* **Scraping**: BeautifulSoup4, Requests
+
+---
+
+## 💻 How to Run Locally
+
+### 1. Backend Setup
+
+cd backend
 python -m venv venv
-source venv/bin/activate  # venv\Scripts\activate on Windows
+# Windows
+venv\Scripts\activate
 pip install -r requirements.txt
 uvicorn app.main:app --reload
-2. Frontend SetupBashcd frontend
+
+### 2.Frontend Setup
+cd frontend
 npm install
 npm start
+### 🚀 Step 2: Push the Fix to GitHub
+Now, run these 3 commands in your terminal to update the look:
+
+1. **Add the change**:
+
+   git add README.md
