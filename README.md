@@ -3,7 +3,7 @@
 ---
 
 ## 📌 Project Overview
-**Coding Tracker ** is a full-stack real-time monitoring system designed to track student progress on CodingBat.  
+Coding Tracker  is a  real-time monitoring system designed to track student progress on CodingBat.  
 
 ## ✨ Outstanding Features
 * **🔥 Velocity Engine**: Automated detection for students active in the last 24h.
@@ -36,9 +36,3 @@ uvicorn app.main:app --reload
 cd frontend
 npm install
 npm start
-### 🚀 Step 2: Push the Fix to GitHub
-Now, run these 3 commands in your terminal to update the look:
-
-1. **Add the change**:
-
-   git add README.md
